@@ -19,7 +19,8 @@ Joi.objectId = require('joi-objectid')(Joi);
 
 
 mongoose.connect(process.env.DB, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useFindAndModify: false
 });
 
 module.exports = function (app) {
