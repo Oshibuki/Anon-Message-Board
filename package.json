@@ -17,7 +17,7 @@
       "cors": "^2.8.5",
       "express": "^4.17.1",
       "helmet": "^3.18.0",
-      "joi-objectid": "^2.0.0",
+      "joi-objectid": "^3.0.1",
       "mocha": "^6.1.4",
       "mongoose": "^5.6.4",
       "zombie": "^6.1.4"
